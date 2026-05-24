@@ -21,5 +21,7 @@ public class Main {
 
         // Math.max(10, 20) will find the max
         // Math.min(10, 20) will find the min
+
+        // use System.out.printf("The circumference is: %.1fcm", circumference);
     }
 }

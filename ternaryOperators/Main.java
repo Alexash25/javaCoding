@@ -19,8 +19,7 @@ public class Main {
 
         // more practice example
         int hours = 13;
-
-        String timeOfDay = (hours >= 12) ? "AM" : "PM";
+        String timeOfDay = (hours >= 12) ? "A.M." : "P.M.";
 
         System.out.println(timeOfDay);
     }

@@ -23,16 +23,13 @@ public class Main {
             username = email.substring(0, email.indexOf("@"));
             domain = email.substring(email.indexOf('@') + 1);
 
-
-
             System.out.println("A good username for you would be: " + username);
             System.out.println("Domain of your email: " + domain);
         } else {
             System.out.println("Emails must contain '@'");
         }
 
-
         scanner.close();
-        
+
     }
 }
